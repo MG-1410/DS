@@ -47,3 +47,4 @@ int main()
         ptr=ptr->next;
     }
 }
+ 
