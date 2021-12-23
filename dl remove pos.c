@@ -31,7 +31,7 @@ struct node* rem_at_pos(struct node **head,int pos)
     ptr2->next=ptr->next;
     free(ptr);
 
-};
+}; 
 
 
 int main()
