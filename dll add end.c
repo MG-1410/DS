@@ -35,4 +35,4 @@ int main()
         printf("%d ",ptr->i);
         ptr=ptr->next;
     }
-}
+} 
