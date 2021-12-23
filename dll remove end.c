@@ -29,7 +29,7 @@ struct node* rem_at_end(struct node *head)
 };
 
 
-int main()
+int main() 
 {
     struct node *head= (struct node *)malloc(sizeof(struct node));
     head->i=14;
