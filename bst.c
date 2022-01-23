@@ -59,7 +59,6 @@ void insert (int data)
 
 void preorder(struct node *t)
 {
-    
 	if(t == NULL){
 		return;
 	}
@@ -87,8 +86,6 @@ int main()
 	insert(300);
 	insert(30);
 	insert(10);
-
-	
 	printf("Inorder traversal: ");
 	inorder(root);
 	printf("\nPreorder traversal: ");
